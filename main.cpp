@@ -10,14 +10,13 @@ DigitalIn Button(USER_BUTTON);
 Serial comp(USBTX,USBRX);
 
 int main(){
-
-int count=0;
-while(1){
-if(Button==1){
-printf("|");
+int count=0;  //cout is equal to zero 
+while(1){   //Super loop 
+if(Button==1){   //If button is equal to one 
+printf("|");  //print "|"
 }
 else{
-printf("0");
-}
-}
+printf("0");  //print zero "0"
+         }
+    }
 }
